@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+.top {
+	text-align: center;
+	padding-top: 15%;
+}
+.top-right{
+	text-align: right;
+	padding-top: 1%;
+}
+input[type="text"]{
+	width: 38%;
+	height: 44px;
+	border-radius: 50px;
+	background-image: url('images/search-icon.png');
+	background-size: 4%;
+	background-repeat: no-repeat;
+	background-position: 14px 9px;
+	border: 1px solid #bfbfbf;
+}
+.bottom-buttons{
+	padding-top: 2%; 
+	border: none;
+}
+</style>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+    	<div class="top-right">
+    		<a href="advanced.html">Advanced Search</a>
+    		<a href="image.html">Image Search</a>
+    	</div>
+    	<div class="top">
+    		<h1 style="font-size: 500%">
+    			<span style="color:blue">G</span><span style="color:red">o</span><span style="color:yellow">o</span><span style="color:blue">g</span><span style="color:green">l</span><span style="color:red">e</span>
+    		</h1>
+        	<div style="padding-top: 2%">
+        		<form action="https://google.com/search">
+            		<input type="text" name="q" maxlength="2048">
+            		<br>
+            		<div class="bottom-buttons">
+            			<input style="margin-right: 1%" type="submit" value="Google Search">
+            			<input type="submit" value="I'm Feeling Lucky">
+            		</div>
+            	</form>
+        	</div>
+    </body> 
+</html>
